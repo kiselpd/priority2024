@@ -9,6 +9,7 @@
 ````
 
 ### *parseToJsonEsp32 -> парсит структуру Esp32Data в json-строку*
+````
 {
     "Input": {
         "DC": {
@@ -46,5 +47,6 @@
         }
     ]
 }
+````
 
 ### *parseFromJson -> парсит json-строку в структуру Esp32Data*
