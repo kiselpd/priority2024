@@ -51,5 +51,5 @@ namespace json_obj_esp32
 
     std::string parseToJsonRelay(const RelayStatus& relay_data);
     std::string parseToJsonEsp32(const Esp32Data& esp_data);
-    Esp32Data parseFromJson(const std::string& string_data); //json string -> struct
+    Esp32Data parseFromJson(const std::string& string_data);
 };
