@@ -1,12 +1,14 @@
-##Парсер json для передачи и приема данных с сервера
+## Парсер json для передачи и приема данных с сервера
 
-###parseToJsonRelay -> парсит структуру RelayStatus в json-строку
+### *parseToJsonRelay -> парсит структуру RelayStatus в json-строку
+'''
 {
     "Relay_number": "1",
     "Status": "0"
 }
+'''
 
-###parseToJsonEsp32 -> парсит структуру Esp32Data в json-строку
+### *parseToJsonEsp32 -> парсит структуру Esp32Data в json-строку
 {
     "Input": {
         "DC": {
@@ -45,4 +47,4 @@
     ]
 }
 
-###parseFromJson -> парсит json-строку в структуру Esp32Data
+### *parseFromJson -> парсит json-строку в структуру Esp32Data
