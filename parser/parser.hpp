@@ -15,7 +15,6 @@ namespace json_obj_esp32
 
     const size_t OUTPUT_SIZE = 4;
 
-
     struct InputData 
     {
         float dc_v;
